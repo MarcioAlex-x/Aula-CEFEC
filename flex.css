@@ -4,3 +4,41 @@
     background-color: #0d4f22;
     padding: 50px;
 }
+.block{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: solid 1px;
+    margin: 0 auto;
+
+}
+.block div{
+    padding: 30px;
+    background-color: aliceblue;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.block div span{
+    background-color: blueviolet;
+    height: 10%;
+}
+
+.flex{
+    background-color: aqua; 
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+.flex div{
+    padding: 20px;
+    background-color: burlywood;
+}
+.flex div span{
+    background-color: chartreuse;
+}

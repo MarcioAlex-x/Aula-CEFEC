@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    display: grid;
+    margin: 0;
+
+    grid-template-areas: 'n n n n'
+    'h h h a'
+    's s s a'
+    'f f f f';
+    gap: 10px;
+}
+.nav{
+    height: 60px;
+    grid-area: n;
+    background-color: aliceblue;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-family: sans-serif;
+    padding: 10px;
+    transition: .5s;
+}
+li:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    color: aliceblue;
+    display: none;
+}
+.header{
+    height: 300px;
+    grid-area: h;
+    background-color: aliceblue;
+}
+.section{
+    height: 700px;
+    grid-area: s;
+    background-color: aliceblue;
+}
+.aside{
+    grid-area: a;
+    background-color: aliceblue;
+}
+.footer{
+    height: 60px;
+    grid-area: f;
+    background-color: aliceblue;
+}
